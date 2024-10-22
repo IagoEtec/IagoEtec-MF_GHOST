@@ -10,6 +10,10 @@
 
 body {
     background-color: #343a40; /* Cor de fundo escura */
+    background-image: url('../img/japan-black-and-white-qhfa2pc4ywu341dx.jpg'); /* Adicione a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
 }
 
 .card {
