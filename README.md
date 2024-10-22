@@ -1,3 +1,3 @@
-# https://profandersonvanin.github.io/site_eletronicos_turmaB/
+# https://iagoetec.github.io/IagoEtec-MF_GHOST/
 
 Meu Site de Loja de Eletrônicos
