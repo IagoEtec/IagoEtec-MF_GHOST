@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Eletrônicos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Link para o CSS personalizado -->
+</head>
+<body class="bg-dark text-light">
+    <!-- Início do menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Loja</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim do menu -->
+
+    <header class="container mt-5">
+        <h1 class="text-center text-danger">𝖒𝖋 𝖌𝖍𝖔𝖘𝖙 𝖏𝖆𝖕𝖆𝖓</h1> <!-- Título em vermelho vivo -->
+    </header>
+    <main class="container mt-5">
+        <section>
+            <h2 class="text-center">Produtos em Destaque</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card bg-dark text-light custom-card"> <!-- Card com borda vermelha -->
+                        <img src="img/gt4.jpg" class="card-img-top img-fluid" alt="Produto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Porsche 718 Cayman GT4 RS</h5>
+                            <p class="card-text">
+                                <ul>Preço sugerido: A partir de R$ 1,236 milhão</ul>
+                                <ul>Motor: 4,0 l 6 cilindros</ul>
+                                <ul>Potência: 500 HP</ul>
+                                <ul>Velocidade máxima: 315 km/h</ul>
+                                <ul>Aceleração de 0 a 100 km/h: 3,4 segundos</ul>
+                            </p>
+                            <a href="#" class="btn btn-danger">Ver mais</a> <!-- Botão vermelho -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card bg-dark text-light custom-card"> <!-- Card com borda vermelha -->
+                        <img src="img/gt86.jpg" class="card-img-top img-fluid" alt="Produto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota GT86</h5>
+                            <p class="card-text">
+                                <ul>Preço sugerido: A partir de R$ 140 mil</ul>
+                                <ul>Motor: 2.4 boxer (com cilindros contrapostos) aspirado</ul>
+                                <ul>Potência: 200 HP</ul>
+                                <ul>Velocidade máxima: 230 km/h</ul>
+                                <ul>Aceleração de 0 a 100 km/h: 7.6 segundos</ul>
+                            </p>
+                            <a href="#" class="btn btn-danger">Ver mais</a> <!-- Botão vermelho -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="card bg-dark text-light custom-card"> <!-- Card com borda vermelha -->
+                        <img src="img/M3.jpg" class="card-img-top img-fluid" alt="Produto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Bmw M3</h5>
+                            <p class="card-text">
+                                <ul>Preço sugerido: A partir de R$ 858 mil</ul>
+                                <ul>Motor: M TwimPower Turbo.</ul>
+                                <ul>Potência: 473 HP</ul>
+                                <ul>Velocidade máxima: 290 km/h</ul>
+                                <ul>Aceleração de 0 a 100 km/h: 3,9 segundos</ul>
+                            </p>
+                            <a href="#" class="btn btn-danger">Ver mais</a> <!-- Botão vermelho -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-center" style="width: 60%; margin: auto;"> <!-- Área de contato com 60% -->
+            <h2 class="mt-5">Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar</button> <!-- Botão vermelho -->
+            </form>
+        </section>
+    </main>
+    <footer class="container-fluid mt-5 mb-3">
+        <p class="text-center">&copy; 2024 - Prof Anderson Vanin</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.btn-danger {
+    background-color: red !important; /* Vermelho escuro */
+    border-color: red !important; /* Borda vermelha escura */
+}
+
+.btn-danger:hover {
+    background-color: red !important; /* Vermelho ainda mais escuro no hover */
+    border-color: red !important; /* Borda vermelha mais escura no hover */
+}
+
+body {
+    background-color: #343a40; /* Cor de fundo escura */
+}
+
+.card {
+    border: 2px solid red !important; /* Borda vermelha */
+    background-color: #1a1a1a; /* Mantém o fundo escuro */
+}
+
+.custom-card {
+    border: 2px solid red !important; /* Força a borda vermelha */
+}
